@@ -1,0 +1,52 @@
+
+home_limits:
+    default: 5
+    vip1: 10 #EDHome.home.vip1
+    vip2: 15 #EDHome.home.vip2
+    vip3: 20 #EDHome.home.vip3
+    vip4: 30 #EDHome.home.vip4
+    vip5: 40 #EDHome.home.vip5
+    vip6: 50 #EDHome.home.vip6
+       
+
+
+Mensagens:
+    
+    prefixo: '&6&LEDH&6ome '
+    
+    home_marcar: '&f/home &6marcar nome &7&o- Marca uma home'
+    home_deletar: '&f/home &6deletar nome &7&o- Deleta uma home'
+    home_deletar_todas: '&f/home &6deletar * &7&o- Deleta todas as homes'
+    home_teleportar: '&f/home &6nome &7&o- Teleporta a uma home'
+    home_lista: '&f/home &6lista &7&o- Visualiza as homes marcadas'
+    
+    home_criada: '&f&oHome &f&o@argumento &f&ocriada com sucesso'
+    home_deletada: '&f&oHome &f&o@argumento &f&oremovida com sucesso'
+    home_deletadaAll: '&f&oTodas as suas homes foram removidas com sucesso'
+    home_teleportado: '&f&oVoce foi teleportado ate sua home &f&o@argumento'
+    home_listar: '&f&oSuas Homes: &f&o'
+    home_semhome: '&f&oVoce nao possui nenhuma home marcada'
+    excedeu_limite: '&f&oVoce ja excedeu seu limite de @limite homes marcadas'
+    
+    
+    erro_marcar: '&f&oDigite o nome da home'
+    erro_deletar: '&f&oDigite o nome da home'
+    erro_jaexiste: '&f&oEsta home ja existe'
+    erro_naoexiste: '&f&oEsta home nao existe'
+    erro_naopossuihome: '&f&oVoce não possui nenhuma Home'
+    erro_aocriar: '&f&oHouve um erro ao criar sua home, por favor entre em contato com um administrador'
+    erro_aodeletar: '&f&oHouve um erro ao deletar sua home, por favor entre em contato com um administrador'
+    
+    reload_sucessoMySQL: '&f&oConfiguraçoes recarregadas com sucesso, usando &6MySQL'
+    reload_sucessoSQLite: '&f&oConfiguraçoes recarregadas com sucesso, usando &6SQLite'
+    
+
+    
+Conexao:
+    
+    useMySQL: false
+    Host: 'localhost'
+    Porta: 3306
+    DataBase: ''
+    Usuario: ''
+    Senha: ''

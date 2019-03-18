@@ -1,0 +1,6 @@
+name: EDHome
+version: 1.0
+main: edhome.EDHome
+commands:
+    home:
+    ahome:
